@@ -1,0 +1,7 @@
+Ícono de POSLY (no el logo de cada negocio).
+
+- posly-icon.svg  -> lo usa la web: landing, página /togo y favicon.
+- posly-icon.png  -> lo usan los emails (Gmail y Outlook no muestran SVG).
+
+Si cambiás el SVG, regenerá el PNG con:
+    node scripts/brand-icon-png.mjs
